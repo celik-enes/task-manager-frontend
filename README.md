@@ -1,59 +1,32 @@
-Task Manager – Frontend
+# Task Manager – Frontend
 
-Bu proje, basit bir Task Manager uygulamasının frontend kısmını içerir.
+Bu proje, basit bir Task Manager uygulamasının frontend kısmını içerir.  
 Kullanıcıların görev ekleyebildiği, listeleyebildiği, tamamlayabildiği ve silebildiği bir arayüz sunar.
 
-Kullanılan Teknolojiler
+Frontend, JavaScript `fetch` API kullanarak backend ile HTTP üzerinden haberleşir.
 
-HTML – Sayfa yapısı
+## Kullanılan Teknolojiler
+- HTML
+- CSS
+- JavaScript
+- Fetch API
 
-CSS – Basit ve okunabilir arayüz tasarımı
+## Özellikler
+- Görevleri listeleme
+- Yeni görev ekleme
+- Görev silme
+- Görev tamamlama
+- Backend API ile canlı veri iletişimi
 
-JavaScript – Kullanıcı etkileşimleri ve API istekleri
+## Backend
+Bu frontend uygulaması aşağıdaki backend servisi ile çalışmaktadır:
 
-Fetch API – Backend ile HTTP üzerinden iletişim
+🔗 **Backend Repository:**  
+https://github.com/celik-enes/task-manager-backend
 
-Özellikler
+Backend Express.js ile geliştirilmiş olup REST API mantığıyla çalışmaktadır.
 
-Görevleri backend’den çekip listeleme
-
-Yeni görev ekleme
-
-Görev silme
-
-Görev tamamlama (backend API üzerinden)
-
-Backend Bağlantısı
-
-Frontend, aşağıdaki endpoint üzerinden backend ile haberleşir:
-
-http://localhost:4000/tasks
-
-
-Uygulamanın doğru çalışabilmesi için backend servisinin çalışıyor olması gerekir.
-
-Proje Yapısı
-task-manager-frontend/
-│
-├── index.html
-├── app.js
-└── .gitignore
-
-
-index.html → Uygulamanın arayüzü
-
-app.js → API istekleri ve DOM işlemleri
-
-.gitignore → Git için hariç tutulan dosyalar
-
-Çalıştırma
-
-Backend’i çalıştır
-
-index.html dosyasını tarayıcıda aç
-
-Task eklemeye başla
-
-Notlar
-
-Bu frontend uygulaması, backend tarafındaki REST API yapısına bağlı olarak çalışır ve veri kalıcılığı backend tarafından yönetilir.
+## Çalıştırma
+1. Backend servisinin çalıştığından emin olun (`localhost:4000`)
+2. Bu projedeki `index.html` dosyasını tarayıcıda açın
+3. Uygulama backend API üzerinden görevleri otomatik olarak çeker
