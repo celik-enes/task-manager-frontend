@@ -9,7 +9,7 @@ HTML – Sayfa yapısı
 
 CSS – Basit ve okunabilir arayüz tasarımı
 
-Vanilla JavaScript – Kullanıcı etkileşimleri ve API istekleri
+JavaScript – Kullanıcı etkileşimleri ve API istekleri
 
 Fetch API – Backend ile HTTP üzerinden iletişim
 
